@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a {
+  color: rgb(25, 0, 255);
+}
+.details_field {
+  display: flex;
+}
+.details_field > .MuiSvgIcon-root {
+  color: gray;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+.details_field b {
+  margin-right: 7px;
+}
+.detailsImgContainer {
+  width: 100%;
+  margin-top: 40px;
+}
+.detailsImg {
+  width: 100%;
+}
+.detailsBackButton {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.detailsBackButton .MuiSvgIcon-root {
+  color: gray;
+  width: 18px;
+  height: 18px;
+  transition: 200ms all;
+}
+.detailsBackButton:hover .MuiSvgIcon-root {
+  color: rgb(77, 77, 77);
+}
+.filter {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.filter_basic_advanced {
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  margin-bottom: 20px;
+}
+.basic_filter {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.advanced_filter {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.filter_excel_btn {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.radio_filter {
+  width: auto;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+}
+.navbar_link {
+  color: black;
+  text-decoration: none;
+}
+.navbar_buttons {
+  display: flex;
+  align-items: center;
+}
+.navbar_buttons .MuiSvgIcon-root {
+  width: 33px;
+  height: 33px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.edit_ticket_div {
+  padding: 0px 30px;
+  display: flex;
+}
+.edit_ticket_left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.edit_ticket_right > .details_field {
+  display: flex;
+  align-items: flex-end;
+  height: 53px;
+  padding-bottom: 3px;
+}
+.edit_ticket_right > .details_field > .MuiSvgIcon-root {
+  margin-bottom: 10px;
+}
+.edituser_fields {
+  width: 470px;
+}
+.edituser_select {
+  font-family: "Roboto";
+  padding: 0px 5px;
+  height: 30px;
+  width: 100px;
+}
+.edituser_select > option {
+  font-family: "Roboto", sans-serif;
+  padding: 3px 5px;
+}
+.account_fields {
+  width: 470px;
+}
+.charts {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-bottom: 70px;
+  padding: 30px 40px 30px 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  background-color: white;
+}
+.chart_top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 20px 40px;
+}
+.chart_loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  overflow: hidden;
+  padding: 0px 10px 20px 0px;
+}
+.chartfont {
+  font-family: sans-serif;
+}
+.new_provider_div {
+  width: 1000px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.table_footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px;
+}
+.excel_popup_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.322);
+  z-index: 999;
+}
+.excel_popup {
+  position: relative;
+  width: 500px;
+  padding: 40px 50px 50px 50px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  border-radius: 30px;
+}
+.excel_popup > .MuiSvgIcon-root {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: gray;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 23px;
+}
+.editaccount_input {
+  border: 1px solid #ccc;
+  outline: none;
+  height: 28px;
+  border-radius: 7px;
+  padding: 0px 7px;
+  font-family: "Roboto", sans-serif;
+  width: 230px;
+  margin-left: 10px;
+}
+.chartvol_selects_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.change_img {
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.change_img_input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.ReCAPTCHA {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.delete_prov {
+  color: blue;
+  cursor: pointer;
+}
+.no_provider_selected {
+  font-family: "Roboto";
+  color: rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+.noRegisters_provider {
+  font-family: "Roboto";
+  color: rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
